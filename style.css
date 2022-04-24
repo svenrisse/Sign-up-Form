@@ -46,4 +46,22 @@ a {
 }
 .signupsection {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
 }
+
+.headertext {
+    margin-bottom: 15%;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 17%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
