@@ -24,7 +24,6 @@ html, body {
     margin-bottom: 70%;
     color: white;
     font-family: norse-bold;
-    background: rgba(0, 0, 0, 0.45);
     width: 100%;
 }
 
@@ -49,16 +48,91 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color: black;
+    color: aliceblue;
 
 }
 
 .headertext {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     margin-top: 20%;
     margin-left: 5%;
     margin-right: 17%;
     font-weight: 600;
     font-size: 20px;
+    
+}
+
+.signupheader {
+    margin-left: 4%;
+    margin-bottom: 3%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    width: 80%;
+}
+label {
+    padding: 12px;
+}
+form {
+    width: 40%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    
+}
+
+input {
+    width: 70%;
+    background-color: mediumslateblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 12px 20px;
+    font-size: 17px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: darkslateblue;
+  }
+
+* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+#firstName {
+    display:flex;
+    
+}
+
+#lastName {
+    display: flex;
+}
+
+#email {
+    display: flex;
+}
+
+#phoneNumber {
+    display: flex;
+}
+
+#password {
+    display: flex;
 }
 
 
