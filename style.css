@@ -2,7 +2,8 @@ html, body {
     display: flex;
     margin: 0;
     height: 100%;
-
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logosection {
     display: flex;
@@ -10,7 +11,7 @@ html, body {
     justify-content: flex-end;
     align-items: center;
     background-image: url(images/cubes.avif);
-    width: 40%;
+    width: 35%;
 }
 @font-face {
     font-family: norse-bold;
@@ -40,6 +41,9 @@ html, body {
     color: white;
     margin-bottom: 2%;
 }
+a {
+    color: white;
+}
 .signupsection {
-    width: 60%;
+    width: 65%;
 }
