@@ -1,0 +1,45 @@
+html, body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+
+}
+.logosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(images/cubes.avif);
+    width: 40%;
+}
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70%;
+    color: white;
+    font-family: norse-bold;
+    background: rgba(0, 0, 0, 0.45);
+    width: 100%;
+}
+
+.logoimg {
+    height: 15em;
+    width: 11em;
+}
+
+.logotext {
+    font-size: 120px;
+}
+
+.source {
+    color: white;
+    margin-bottom: 2%;
+}
+.signupsection {
+    width: 60%;
+}
